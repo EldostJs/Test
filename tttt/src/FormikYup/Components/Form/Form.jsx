@@ -2,8 +2,7 @@ import SF from '../Form/Form.module.css';
 import { Formik, Form } from 'formik';
 import { initialValues, schemas } from './Helper';
 import { Input } from '../Input/Input';
-import { Button } from '../Button/Button';
-import { Children } from 'react';
+import Button from '../Button/Button';
 
 export const CustomForm = () => {
     return (
